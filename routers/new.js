@@ -1,0 +1,11 @@
+// const message = require("./index");
+// //console.log(message.course);
+// //const x  ;
+// module.exports.message = message;
+// const path = require("path");
+// const isRelative = path.isRelative("relative/path/file.txt");
+// console.log(isRelative);
+// const os = require("os");
+// console.log("Current User:", os.userInfo().username);
+const os = require("os");
+console.log("Environment Variables:", process.env);
